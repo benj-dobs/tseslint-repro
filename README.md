@@ -1,1 +1,0 @@
-# tseslint-repro-2

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "bundler"
+  },
+  "include": ["index.tsx"]
+}

@@ -1,7 +1,8 @@
 import { FC, type PropsWithChildren } from "react";
-import { chakra, useStyleConfig } from "@chakra-ui/react";
+import { chakra, type SystemStyleObject } from "@chakra-ui/react";
+
+declare const hoverStyles: SystemStyleObject;
 
 export const Component: FC<PropsWithChildren> = (props) => {
-  const hoverStyles = useStyleConfig("hover");
   return <chakra.div __css={{ "&:hover": { ...hoverStyles } }} {...props} />;
 };
